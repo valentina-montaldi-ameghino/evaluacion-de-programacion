@@ -5,7 +5,7 @@ import org.junit.Test;
  * Created by alumno on 29/04/16.
  */
 public class TestPunto {
-/*
+
     @Test
     public void desplazarEnX() {
         Punto punto = new Punto();
@@ -13,6 +13,7 @@ public class TestPunto {
         punto.desplazarEnX(10);
         Assert.assertEquals(15, punto.x);
     }
+    /*
 
     @Test
     public void desplazarEnX2() {
