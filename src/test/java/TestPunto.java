@@ -13,8 +13,14 @@ public class TestPunto {
         punto.desplazarEnX(10);
         Assert.assertEquals(15, punto.x);
     }
-
     @Test
+    public void desplazarEnX2() {
+        Punto punto = new Punto();
+        punto.x = 50;
+        punto.desplazarEnX(50);
+        Assert.assertEquals(150, punto.x);
+    }
+   /* @Test
     public void desplazarEnY() {
         Punto punto = new Punto();
         punto.y = 4;
@@ -33,6 +39,6 @@ public class TestPunto {
         Assert.assertEquals(punto3.x, 3);
         Assert.assertEquals(punto3.y, 5);
     }
-
+*/
 
 }
