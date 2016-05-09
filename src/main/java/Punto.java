@@ -6,23 +6,15 @@ public class Punto {
     public int x;
     public int y;
 
-    public Punto(int i, int i1) {
-        this.x= i;
-        this.y= i1;
+    public void desplazarEnX(int desplazar) {
+    this.x = this.x + desplazar;
+
+
+
     }
 
-    public Punto() {
-    }
+    public void desplazarEnY(int desplazar2) {
 
-    public void desplazarEnX(int i) {
-        this.x= this.x + i;
-    }
-
-    public void desplazarEnY(int i) {
-        this.y= this.y + i;
-    }
-
-    public Punto sumarPuntos(Punto Punto2) {
-        return new Punto (this.x + Punto2.x, this.y + Punto2.y);
+            this.y = this.y + desplazar2;
     }
 }

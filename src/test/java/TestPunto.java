@@ -6,6 +6,9 @@ import org.junit.Test;
  */
 public class TestPunto {
 
+
+    private int x;
+
     @Test
     public void desplazarEnX() {
         Punto punto = new Punto();
@@ -13,6 +16,10 @@ public class TestPunto {
         punto.desplazarEnX(10);
         Assert.assertEquals(15, punto.x);
     }
+
+
+
+
 
     @Test
     public void desplazarEnX2() {
@@ -22,7 +29,6 @@ public class TestPunto {
         Assert.assertEquals(150, punto.x);
     }
 
-
     @Test
     public void desplazarEnY() {
         Punto punto = new Punto();
@@ -31,7 +37,7 @@ public class TestPunto {
         Assert.assertEquals(14, punto.y);
 
     }
-
+    /*
    @Test
     public void tercerPunto() {
         Punto punto1 = new Punto(9,4);
@@ -61,5 +67,6 @@ public class TestPunto {
         Assert.assertEquals(punto3.x, 60);
         Assert.assertEquals(punto3.y, 90);
     }
+    */
 
 }
