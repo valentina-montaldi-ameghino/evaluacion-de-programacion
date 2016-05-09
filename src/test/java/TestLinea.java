@@ -1,0 +1,42 @@
+import org.junit.Assert;
+import org.junit.Test;
+
+/**
+ * Created by alumno on 09/05/16.
+ */
+public class TestLinea {
+
+    @Test
+    public void crearLinea(){
+        Punto punto1 = new Punto(0,0);
+        Punto punto2 = new Punto(0,4);
+        Linea linea1 = new Linea(punto1,punto2);
+
+        Assert.assertEquals(linea1.largoDeLaLinea(), 4);
+    }
+
+    @Test
+    public void crearLinea(){
+        Punto punto1 = new Punto(0,0);
+        Punto punto2 = new Punto(3,4);
+        Linea linea1 = new Linea(punto1,punto2);
+
+        Assert.assertEquals(linea1.largoDeLaLinea(), 5);
+
+        //prmero restar el punto mas grande al mas chico, y dejarlo positivo
+        //la cuenta seria, 3 al cuadrado + 4 al cuadrado , y al resultado hacerle la raiz
+    }
+
+    @Test
+    public void crearLinea2(){
+        Punto punto1 = new Punto(1,1);
+        Punto punto2 = new Punto(4,5);
+        Linea linea1 = new Linea(punto1,punto2);
+
+        Assert.assertEquals(linea1.largoDeLaLinea(), 5);
+
+        //prmero restar el punto mas grande al mas chico, y dejarlo positivo
+        //la cuenta seria, 3 al cuadrado + 4 al cuadrado , y al resultado hacerle la raiz
+    }
+
+}
