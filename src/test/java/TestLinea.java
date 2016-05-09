@@ -5,7 +5,7 @@ import org.junit.Test;
  * Created by alumno on 09/05/16.
  */
 public class TestLinea {
-    /*
+/*
     @Test
     public void crearLinea(){
         Punto punto1 = new Punto(0,0);
@@ -38,5 +38,5 @@ public class TestLinea {
         //prmero restar el punto mas grande al mas chico, y dejarlo positivo
         //la cuenta seria, 3 al cuadrado + 4 al cuadrado , y al resultado hacerle la raiz
     }
-    */
+*/
 }

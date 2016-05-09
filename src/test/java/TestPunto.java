@@ -13,14 +13,14 @@ public class TestPunto {
         punto.desplazarEnX(10);
         Assert.assertEquals(15, punto.x);
     }
-    /*
+
 
     @Test
     public void desplazarEnX2() {
         Punto punto = new Punto();
         punto.x = 50;
-        punto.desplazarEnX(50);
-        Assert.assertEquals(150, punto.x);
+        punto.desplazarEnX(150);
+        Assert.assertEquals(200, punto.x);
     }
    @Test
     public void desplazarEnY() {
@@ -32,19 +32,19 @@ public class TestPunto {
     }
 
     @Test
-    public void crearPuntoConConstructor() {
-        Punto punto1 = new Punto(10,23);
-
-        Assert.assertEquals(punto1.x, 10);
-        Assert.assertEquals(punto1.y, 23);
-    }
-
-    @Test
     public void crearPuntoSinConstructor() {
         Punto punto1 = new Punto();
 
         Assert.assertEquals(punto1.x, 0);
         Assert.assertEquals(punto1.y, 0);
+    }
+
+    @Test
+    public void crearPuntoConConstructor() {
+        Punto punto1 = new Punto(10,23);
+
+        Assert.assertEquals(punto1.x, 10);
+        Assert.assertEquals(punto1.y, 23);
     }
 
     @Test
@@ -58,6 +58,5 @@ public class TestPunto {
         Assert.assertEquals(punto3.y, 5);
     }
 
-*/
 
 }
