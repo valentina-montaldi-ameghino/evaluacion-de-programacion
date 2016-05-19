@@ -5,7 +5,7 @@ import org.junit.Test;
  * Created by alumno on 09/05/16.
  */
 public class TestLinea {
-
+/*
     @Test
     public void crearLinea(){
         Punto punto1 = new Punto(0,0);
@@ -17,7 +17,7 @@ public class TestLinea {
         Assert.assertEquals(linea1.fin.x, 0);
         Assert.assertEquals(linea1.fin.y, 4);
     }
-/*
+
     @Test
     public void crearLinea(){
         Punto punto1 = new Punto(0,0);
