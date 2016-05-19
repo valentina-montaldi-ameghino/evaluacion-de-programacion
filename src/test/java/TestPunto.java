@@ -1,12 +1,9 @@
-import org.junit.Assert;
-import org.junit.Test;
-
 /**
  * Created by alumno on 29/04/16.
  */
 public class TestPunto {
-/*
 
+    /*
     @Test
     public void desplazarEn10X() {
         Punto punto = new Punto();
@@ -65,6 +62,7 @@ public class TestPunto {
         Assert.assertEquals(punto1.x, 0);
         Assert.assertEquals(punto1.y, 0);
     }
+
     @Test
     public void crearPuntoConConstructor() {
         Punto punto1 = new Punto(10,23);
@@ -73,17 +71,34 @@ public class TestPunto {
         Assert.assertEquals(punto1.y, 23);
     }
 
+    @Test
+    public void crearPuntoConConstructor2() {
+        Punto punto1 = new Punto(1,2);
+        Punto punto2 = new Punto(7,9);
+
+
+        Assert.assertEquals(punto1.x, 1);
+        Assert.assertEquals(punto1.y, 2);
+
+
+        Assert.assertEquals(punto2.x, 7);
+        Assert.assertEquals(punto2.y, 9);
+    }
 
     @Test
     public void tercerPunto() {
         Punto punto1 = new Punto(1,2);
         Punto punto2 = new Punto(2,3);
 
-        Punto punto3 = punto1.sumarPuntos(punto2);
+        Punto punto3 = punto1.sumarseConOtroPunto(punto2);
 
-        Assert.assertEquals(punto3.x, 3);
-        Assert.assertEquals(punto3.y, 5);
+
+        Assert.assertEquals(punto2.x, 3);
+        Assert.assertEquals(punto2.y, 5);
     }
+
+
+
 */
 
 }
