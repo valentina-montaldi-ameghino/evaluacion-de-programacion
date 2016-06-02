@@ -81,7 +81,7 @@ public class TestCuadrilatero {
     }
 
     @Test
-    public void extenderCuadrilatero() {
+    public void estanIncluidosPuntos() {
         Punto esquinaInferiorIzquierda = new Punto(0, 0);
         Punto esquinaSuperiorDerecha = new Punto(5, 10);
 
