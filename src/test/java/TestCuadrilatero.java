@@ -62,9 +62,12 @@ public class TestCuadrilatero {
 
         Cuadrilatero cuadradado = new Cuadrilatero(esquinaInferiorIzquierda, esquinaSuperiorDerecha);
 
-        cuadradado.extenderCuadrilatero();
+        Punto puntoAExtender = new Punto(10, 20);
 
-        Assert.assertEquals(50, cuadradado.extenderCuadrilatero());
+
+        cuadradado.extenderCuadrilateroHasta(puntoAExtender);
+
+        Assert.assertEquals(200, cuadradado.area());
     }
 
 
