@@ -66,7 +66,7 @@ public class TestCuadrilatero {
     }
 
     @Test
-    public void extenderCuadrilatero() {
+    public void modificarTamañoDeVentana() {
         Punto esquinaInferiorIzquierda = new Punto(0, 0);
         Punto esquinaSuperiorDerecha = new Punto(5, 10);
 
@@ -75,7 +75,7 @@ public class TestCuadrilatero {
         Punto puntoAExtender = new Punto(10, 20);
 
 
-        cuadradado.extenderCuadrilateroHasta(puntoAExtender);
+        cuadradado.modificarTamañoDeVentana(puntoAExtender);
 
         Assert.assertEquals(200, cuadradado.area());
     }
