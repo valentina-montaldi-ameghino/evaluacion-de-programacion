@@ -56,6 +56,16 @@ public class TestCuadrilatero {
     }
 
     @Test
+    public void calcularArea() {
+        Punto esquinaInferiorIzquierda = new Punto(2, 2);
+        Punto esquinaSuperiorDerecha = new Punto(4, 4);
+
+        Cuadrilatero cuadradado = new Cuadrilatero(esquinaInferiorIzquierda, esquinaSuperiorDerecha);
+
+        Assert.assertEquals(4, cuadradado.area());
+    }
+
+    @Test
     public void extenderCuadrilatero() {
         Punto esquinaInferiorIzquierda = new Punto(0, 0);
         Punto esquinaSuperiorDerecha = new Punto(5, 10);
