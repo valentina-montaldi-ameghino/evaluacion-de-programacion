@@ -43,6 +43,15 @@ public class TestCuadrilatero {
         Cuadrilatero cuadradado = new Cuadrilatero(esquinaInferiorIzquierda, esquinaSuperiorDerecha);
 
         Assert.assertEquals(30, cuadradado.perimetro());
+    }
 
+    @Test
+    public void calcularArea() {
+        Punto esquinaInferiorIzquierda = new Punto(0, 0);
+        Punto esquinaSuperiorDerecha = new Punto(5, 10);
+
+        Cuadrilatero cuadradado = new Cuadrilatero(esquinaInferiorIzquierda, esquinaSuperiorDerecha);
+
+        Assert.assertEquals(50, cuadradado.area());
     }
 }
