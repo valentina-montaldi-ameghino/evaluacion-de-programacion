@@ -80,6 +80,36 @@ public class TestCuadrilatero {
         Assert.assertEquals(200, cuadradado.area());
     }
 
+    @Test
+    public void extenderCuadrilatero() {
+        Punto esquinaInferiorIzquierda = new Punto(0, 0);
+        Punto esquinaSuperiorDerecha = new Punto(5, 10);
+
+        Cuadrilatero cuadradado = new Cuadrilatero(esquinaInferiorIzquierda, esquinaSuperiorDerecha);
+
+        Punto p1 = new Punto(0, 0);
+        Punto p2 = new Punto(0, 1);
+        Punto p3 = new Punto(2, 2);
+        Punto p4 = new Punto(3, 5);
+        Punto p5 = new Punto(4, 5);
+        Punto p6 = new Punto(2, 2);
+        Punto p7 = new Punto(6, 11);
+        Punto p8 = new Punto(2, 11);
+        Punto p9 = new Punto(8, 5);
+
+
+        Assert.assertTrue(cuadradado.estaIncluido(p1));
+        Assert.assertTrue(cuadradado.estaIncluido(p2));
+        Assert.assertTrue(cuadradado.estaIncluido(p3));
+        Assert.assertTrue(cuadradado.estaIncluido(p4));
+        Assert.assertTrue(cuadradado.estaIncluido(p5));
+        Assert.assertTrue(cuadradado.estaIncluido(p6));
+        Assert.assertTrue(cuadradado.noEstaIncluido(p7));
+        Assert.assertTrue(cuadradado.noEstaIncluido(p8));
+        Assert.assertTrue(cuadradado.noEstaIncluido(p9));
+    }
+
+
 
 
 }
