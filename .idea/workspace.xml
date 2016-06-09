@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCuadrilatero.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.73170733">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -507,7 +507,13 @@
       <option name="project" value="LOCAL" />
       <updated>1465505405127</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="testsCalcularPerimetro vino funcionando">
+      <created>1465505470857</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1465505470857</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -518,6 +524,9 @@
       <configuration name="All in 1.0.0" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_1_0_0 - 2016.06.09 at 17h 50m 45s.xml">
+      <configuration name="All in 1.0.0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_1_0_0 - 2016.06.09 at 17h 52m 04s.xml">
       <configuration name="All in 1.0.0" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -555,7 +564,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tests en TestPunto funcionan todos. Lista para trabajar en TestCuadrilatero" />
     <MESSAGE value="testsCrearCuadrilatero vino funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="testsCrearCuadrilatero vino funcionando" />
+    <MESSAGE value="testsCalcularPerimetro vino funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="testsCalcularPerimetro vino funcionando" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -585,7 +595,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCuadrilatero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73170733">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
