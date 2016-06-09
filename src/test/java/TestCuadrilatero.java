@@ -23,7 +23,7 @@ public class TestCuadrilatero {
 
     }
 
-/*
+
     @Test
     public void calcularPerimetro() {
         Punto esquinaInferiorIzquierda = new Punto(6, 2);
@@ -34,6 +34,8 @@ public class TestCuadrilatero {
         Assert.assertEquals(8, cuadradado.perimetro());
 
     }
+
+    /*
 
     @Test
     public void calcularPerimetro2() {
