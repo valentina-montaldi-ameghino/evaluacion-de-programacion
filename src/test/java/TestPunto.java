@@ -6,7 +6,6 @@ import org.junit.Test;
  */
 public class TestPunto {
 
-
     @Test
     public void desplazarEn10X() {
         Punto punto = new Punto();
