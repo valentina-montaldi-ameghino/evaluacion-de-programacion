@@ -45,6 +45,7 @@ public class TestPunto {
         punto.desplazarEnX(30);
         Assert.assertEquals(35, punto.x);
     }
+
     @Test
     public void desplazarEn101X() {
         Punto punto = new Punto();
@@ -63,8 +64,7 @@ public class TestPunto {
     }
 
 
-
-   @Test
+    @Test
     public void desplazarEnY() {
         Punto punto = new Punto();
         punto.y = 4;
@@ -80,6 +80,7 @@ public class TestPunto {
         Assert.assertEquals(punto1.x, 0);
         Assert.assertEquals(punto1.y, 0);
     }
+
     @Test
     public void crearPuntoConConstructor() {
         Punto punto1 = new Punto(10, 23);
@@ -91,8 +92,8 @@ public class TestPunto {
 
     @Test
     public void crearPuntoConConstructor2() {
-        Punto punto1 = new Punto(1,2);
-        Punto punto2 = new Punto(7,9);
+        Punto punto1 = new Punto(1, 2);
+        Punto punto2 = new Punto(7, 9);
 
         Assert.assertEquals(punto1.x, 1);
         Assert.assertEquals(punto1.y, 2);
@@ -104,8 +105,8 @@ public class TestPunto {
 
     @Test
     public void tercerPunto() {
-        Punto punto1 = new Punto(1,2);
-        Punto punto2 = new Punto(2,3);
+        Punto punto1 = new Punto(1, 2);
+        Punto punto2 = new Punto(2, 3);
 
         Punto punto3 = punto1.sumarseConOtroPunto(punto2);
 
