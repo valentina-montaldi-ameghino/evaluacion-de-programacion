@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b2a16f7-9279-411b-92dd-bb03ecc8b672" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/xtextAutoBuilderState.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestCuadrilatero.java" afterPath="$PROJECT_DIR$/src/test/java/TestCuadrilatero.java" />
     </list>
     <ignored path="1.0.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -463,6 +460,13 @@
       <option name="number" value="Default" />
       <updated>1465504109136</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tests en TestPunto funcionan todos. Lista para trabajar en TestCuadrilatero">
+      <created>1465504180742</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465504180742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -500,6 +504,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tests en TestPunto funcionan todos. Lista para trabajar en TestCuadrilatero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests en TestPunto funcionan todos. Lista para trabajar en TestCuadrilatero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
